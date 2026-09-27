@@ -4,14 +4,15 @@
   const cfg = window.GM_CONFIG || {};
   const params = new URLSearchParams(location.search);
   const VARIANTS = {
-    waitlist: { cta: 'Join the waitlist', title: 'Get first dibs', sub: "Game Maker is in development. Leave your email and you'll be first to know when the first batch ships. No spam, no payment.", submit: 'Join the waitlist' },
-    reserve: { cta: 'Reserve mine, free', title: 'Reserve your Game Maker', sub: 'Reservations are free and cost nothing. Leave your email to hold a spot in the first batch.', submit: 'Reserve mine' },
-    preorder: { cta: 'Pre-order for $99', title: 'Pre-order Game Maker', sub: 'Pre-orders open soon. Leave your email to lock in the $99 founder price.', submit: 'Pre-order for $99' },
+    waitlist: { cta: 'Join the waitlist', title: 'Get it first', sub: "Game Maker is coming to iPad. Leave your email and you'll be first to know when it's ready. No spam, no payment.", submit: 'Join the waitlist' },
+    reserve: { cta: 'Get early access, free', title: 'Get early access', sub: 'Early access is free. Leave your email to be in the first group of families to try it on iPad.', submit: 'Get early access' },
+    preorder: { cta: 'Try it now', title: 'Try it now', sub: "We're finishing the first version. Leave your email and you'll be in the first group to get it.", submit: 'Send me the app' },
   };
   const ANGLES = {
-    maker: { h: "Kids don't just play games.<br><em>They make them.</em>" },
+    maker: { h: 'Hand it over for 20 minutes.<br><em>They make. They learn.</em>' },
     screentime: { h: 'Screen time you can<br><em>feel good about.</em>' },
     earned: { h: 'Upgrades kids earn by learning.<br><em>Never by paying.</em>' },
+    adapts: { h: 'One app. Any kid.<br><em>It adapts to who is holding it.</em>' },
   };
 
   // ---------- analytics ----------
