@@ -65,6 +65,8 @@
     if (ph) ph.register({ gm_variant: variant, gm_angle: angle });
     track('gm_landing_view', { variant, angle });
 
+    const beta = document.getElementById('try-beta');
+    if (beta) beta.addEventListener('click', () => track('gm_try_beta', { variant, angle }));
     document.querySelectorAll('[data-cta]').forEach((el) => {
       el.addEventListener('click', function (e) {
         track('gm_cta_click', { variant, angle, location: el.classList.contains('nav-cta') ? 'nav' : 'body' });
