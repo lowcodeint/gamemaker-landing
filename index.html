@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Maker: kids don't just play games. They make them.</title>
+  <meta name="description" content="A $99 toy where kids build their own video games from picture sentences, then earn upgrades by counting, reading, and solving. No ads. No in-app purchases. Ever." />
+  <meta property="og:title" content="Game Maker: kids make their own games" />
+  <meta property="og:description" content="$99 once. Unlimited games. No ads. Upgrades are earned, never bought." />
+  <meta property="og:image" content="assets/toy-poster.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span>🎮</span> Game Maker</div>
+    <a href="#reserve" class="nav-cta" data-cta>Join the waitlist</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">In development. Reserving is free.</p>
+      <h1 id="headline">Kids don't just play games.<br><em>They make them.</em></h1>
+      <p class="sub" id="subline">Your kid builds a picture sentence like 🐻 🧺 🐟 🌊, taps Make, and plays a game they created. Then they earn new worlds, heroes, and voices by counting, reading, and solving.</p>
+      <div class="hero-ctas">
+        <a href="#reserve" class="btn primary" data-cta>Join the waitlist</a>
+        <a href="#how" class="btn ghost">See how it works</a>
+      </div>
+      <ul class="promises">
+        <li>✅ $99 once. Unlimited games.</li>
+        <li>🚫 No ads. No in-app purchases.</li>
+        <li>🏆 Upgrades are earned, never bought.</li>
+      </ul>
+    </div>
+    <div class="hero-art"><img src="assets/toy-render.jpg" alt="The Game Maker toy, a rubber-bumpered handheld with one big GO button" /></div>
+  </section>
+
+  <section class="proof">
+    <blockquote>"He just wanted to build the game, not play it. He counted to 10 to unlock Space. I didn't even know he could do that."</blockquote>
+    <cite>Dad of a 4-year-old, first test</cite>
+  </section>
+
+  <section id="how" class="how">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><img src="assets/phone-picker.png" alt="Picker with big emoji tiles" /><h3>1. Build a picture sentence</h3><p>Who, does what, to what, where. Big emoji tiles, no reading required. A 4-year-old can do it alone.</p></div>
+      <div class="step"><img src="assets/phone-playing.png" alt="A bear catching fish in the ocean" /><h3>2. Tap Make. Play your game.</h3><p>Thirty seconds later there is a 3D game that your kid made. One button to play, so little hands can do it in the car.</p></div>
+      <div class="step"><img src="assets/phone-challenge.png" alt="Count to 10 challenge" /><h3>3. Earn upgrades by learning</h3><p>Locked tiles show a padlock. Count to 10, sound out a word, or solve a puzzle to unlock. Never a checkout.</p></div>
+    </div>
+  </section>
+
+  <section class="earned">
+    <div class="earned-text">
+      <h2>Every upgrade is a challenge, not a purchase</h2>
+      <p>Other kids' apps sell coins. Game Maker asks your kid to count to 100, read a word, or solve a puzzle. New worlds, new heroes, theme songs, and even Mom and Dad's recorded voices as game characters are all earned.</p>
+      <p class="fine">You pay once for the toy. There is nothing else to buy, and there never will be.</p>
+    </div>
+    <img src="assets/device-upgrade.png" alt="Toy showing the count to 10 challenge" />
+  </section>
+
+  <section class="price">
+    <div class="price-card">
+      <div class="amt"><small>$</small>99</div>
+      <div class="once">once. That's it.</div>
+      <ul>
+        <li>Unlimited games</li>
+        <li>No ads, no subscriptions, no in-app purchases</li>
+        <li>Works offline in the car</li>
+        <li>Also available as an iPad app</li>
+      </ul>
+      <a href="#reserve" class="btn primary wide" data-cta>Join the waitlist</a>
+    </div>
+    <img src="assets/device-making.png" alt="Toy showing the game picker" />
+  </section>
+
+  <section id="reserve" class="reserve">
+    <div class="form-card" id="form-card">
+      <h2 id="form-title">Get first dibs</h2>
+      <p id="form-sub">Game Maker is in development. Leave your email and you'll be first to know when the first batch ships. No spam, no payment.</p>
+      <form id="signup">
+        <input type="email" id="email" placeholder="you@example.com" required autocomplete="email" />
+        <button type="submit" class="btn primary" id="submit-btn">Join the waitlist</button>
+      </form>
+      <p class="tiny" id="form-fine">We'll only email you about Game Maker.</p>
+    </div>
+    <div class="form-card hidden" id="thanks-card">
+      <h2>🎉 You're on the list!</h2>
+      <p>One quick question so we build the right thing first:</p>
+      <p class="q"><b>Which would you want for your family?</b></p>
+      <div class="poll">
+        <button class="btn poll-btn" data-poll="toy">🧸 The $99 toy</button>
+        <button class="btn poll-btn" data-poll="app">📱 A free iPad app</button>
+        <button class="btn poll-btn" data-poll="both">✨ Both</button>
+      </div>
+      <p class="tiny hidden" id="poll-thanks">Thank you! That helps more than you know.</p>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Questions</h2>
+    <details><summary>Is this real?</summary><p>The software is real and being tested with kids right now. The toy is a working design that isn't manufactured yet. Joining the list costs nothing and helps us decide how many to build.</p></details>
+    <details><summary>What ages?</summary><p>Three to seven. Pre-readers can build games alone because everything is pictures. Challenges scale with age.</p></details>
+    <details><summary>Really no in-app purchases?</summary><p>Really. The business model is the $99 toy. Upgrades are unlocked by learning, and that will never change.</p></details>
+    <details><summary>Does it need Wi-Fi?</summary><p>Only to bake new games at home. Playing works fully offline, which is the whole point for car rides.</p></details>
+  </section>
+
+  <footer>
+    <p>Game Maker is an early-stage project. Nothing is for sale yet, and no payment is taken. Questions: hello@gamemaker.example</p>
+  </footer>
+
+  <div class="modal hidden" id="preorder-modal">
+    <div class="modal-card">
+      <h3>Pre-orders aren't open yet</h3>
+      <p>We're building the first batch now. Leave your email and you'll get first dibs and a founder price when they open.</p>
+      <button class="btn primary" id="modal-ok">Okay, add me</button>
+      <button class="btn ghost" id="modal-close">No thanks</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
