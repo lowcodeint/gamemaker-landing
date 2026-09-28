@@ -4,7 +4,7 @@
   const cfg = window.GM_CONFIG || {};
   const params = new URLSearchParams(location.search);
   const VARIANTS = {
-    waitlist: { cta: 'Join the waitlist', title: 'Get it first', sub: "Game Maker is coming to iPad. Leave your email and you'll be first to know when it's ready. No spam, no payment.", submit: 'Join the waitlist' },
+    waitlist: { cta: 'Join the waitlist', title: 'Get it first', sub: "It's coming to iPad. Leave your email and you'll be first to know when it's ready. No spam, no payment.", submit: 'Join the waitlist' },
     reserve: { cta: 'Get early access, free', title: 'Get early access', sub: 'Early access is free. Leave your email to be in the first group of families to try it on iPad.', submit: 'Get early access' },
     preorder: { cta: 'Try it now', title: 'Try it now', sub: "We're finishing the first version. Leave your email and you'll be in the first group to get it.", submit: 'Send me the app' },
   };
